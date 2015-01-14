@@ -1,0 +1,21 @@
+{
+  "name": "UIDate",
+  "version": "0.1",
+  "homepage": "https://github.com/Eslem/DWS-AngularSpring",
+  "authors": [
+    "eslem <j",
+    ".eslem03@gmail.com>"
+  ],
+  "description": "Bla",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Date Picker Angular</title>
+    <link rel="stylesheet" href="lib/jqueryui/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="lib/jqueryui/jquery-ui.theme.min.css" />
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="lib/angular/js/angular.js"></script>
+    <script type="text/javascript" src="lib/ui-date/src/date.js"></script>
+    
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="MainController">
+    <br /><br /><br /><br />
+    <input ui-date="" ng-model="myDate">
+    <p>{{myDate}}</p>
+</body>
+
+</html>
